@@ -6,7 +6,7 @@
 class phpfpm::params {
 
     case $::osfamily {
-        'debian': {
+        'debian','redhat': {
             # Module configuration defaults
             $poold_purge = false
 
