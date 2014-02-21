@@ -77,7 +77,7 @@ class phpfpm::params {
             $config_name                 = 'php-fpm.conf'
             $pool_dir                    = '/etc/php-fpm.d'
             $pid_file                    = '/var/run/php-fpm/php-fpm.pid'
-            $error_log                   = '/var/log/php-fpm'
+            $error_log                   = '/var/log/php-fpm/error.log'
             $syslog_facility             = 'daemon'
             $syslog_ident                = 'php-fpm'
             $log_level                   = 'notice'
